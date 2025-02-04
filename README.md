@@ -13,8 +13,10 @@ Demonstração ao vivo da aplicação -> [LINK](https://schlipe.github.io/KeyChe
 
 ## Planos Futuros
 
+**Adição de teclas opcionais**
 **Suporte a múltiplos layouts de teclado**, incluindo inglês e outros idiomas.
 **Melhorias na interface e na experiência do usuário**.
+
   
 ## Instalação
 
