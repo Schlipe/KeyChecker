@@ -31,7 +31,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 	cd KeyChecker/src
   
 
-3.**Abra o arquivo main.html no seu navegador.**
+3.**Abra o ficheiro main.html.**
 
 ## Tecnologias Utilizadas
 
