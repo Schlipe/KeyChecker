@@ -1,5 +1,5 @@
 # Diagnóstico Teclados (KeyChecker)
-Olá! Sou uma WebApp feita para testar a funcionalidade de teclados, inicialmente com suporte para layout português. O objetivo é garantir que todos os teclados funcionem corretamente, com planos para adicionar suporte a todos os layouts de teclado.
+**Olá!** Sou uma WebApp feita para testar a funcionalidade de teclados, inicialmente com suporte para layout português. O objetivo é garantir que todos os teclados funcionem corretamente, com planos para adicionar suporte a todos os layouts de teclado.
 
 ## Demonstração
 
