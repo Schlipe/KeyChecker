@@ -1,9 +1,9 @@
-# Diagnóstico Teclados (KeyCheck)
+# Diagnóstico Teclados (KeyChecker)
 Olá! Sou uma WebApp feita para testar a funcionalidade de teclados, inicialmente com suporte para layout português. O objetivo é garantir que todos os teclados funcionem corretamente, com planos para adicionar suporte a todos os layouts de teclado.
 
 ## Demonstração
 
-Demonstração ao vivo da aplicação -> [LINK](https://schlipe.github.io/)
+Demonstração ao vivo da aplicação -> [LINK](https://schlipe.github.io/keychecker)
 
 ## Funcionalidades
 
@@ -22,14 +22,14 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 1. **Clonar o repositório:**
    ```bash
-   git clone https://github.com/schlipe/KeyCheck.git
+   git clone https://github.com/schlipe/KeyChecker.git
 
 2. **Navegue até ao projeto:**
 
-	cd KeyCheck/src
+	cd KeyChecker/src
   
 
-3.**Abra o arquivo Keycheck.html no seu navegador.**
+3.**Abra o arquivo main.html no seu navegador.**
 
 ## Tecnologias Utilizadas
 
@@ -39,7 +39,11 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 ## Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+Contribuições são bem-vindas! Sinta-se à vontade para sugerir ideias ou abrir issues!
+
+## Contactos:
+
+- LinkedIn : [LINK](https://www.linkedin.com/in/filiferreira/)
 
 ## Este projeto está licenciado sob a Licença MIT.
 
