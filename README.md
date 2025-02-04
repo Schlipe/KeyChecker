@@ -7,7 +7,7 @@ Demonstração ao vivo da aplicação -> [LINK](https://schlipe.github.io/KeyChe
 
 ## Funcionalidades
 
-- **Detecção em tempo real** das teclas pressionadas.
+- **Deteção em tempo real** das teclas pressionadas.
 - **Feedback visual** para cada tecla.
 - **Interface intuitiva** e leve.
 
@@ -43,7 +43,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para sugerir ideias ou abri
 
 ## Contactos:
 
-- LinkedIn : [LINK](https://www.linkedin.com/in/filiferreira/)
+-Podes encontrar-me no LinkedIn : [Filipe Ferreira](https://www.linkedin.com/in/filiferreira/)
 
 ## Este projeto está licenciado sob a Licença MIT.
 
