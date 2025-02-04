@@ -3,7 +3,7 @@ Olá! Sou uma WebApp feita para testar a funcionalidade de teclados, inicialment
 
 ## Demonstração
 
-Demonstração ao vivo da aplicação -> [LINK](https://schlipe.github.io/keychecker)
+Demonstração ao vivo da aplicação -> [LINK](https://schlipe.github.io/KeyChecker)
 
 ## Funcionalidades
 
