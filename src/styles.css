@@ -1,0 +1,183 @@
+:root {
+    --key-color: #3a3a3a;
+    --key-active: #2ecc71;
+    --key-text: #ffffff;
+    --background: #2c3e50;
+    --special-key: #3498db;
+    --key-width: 24px;
+    --key-height: 24px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--background);
+    color: #fff;
+    margin: 0;
+    /*padding: 2rem;*/
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    color: #ecf0f1;
+}
+
+.test-area {
+    width: 100%;
+    /*height: 120px;*/
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: #fff;
+    /*font-size: 1.2rem;*/
+    resize: none;
+    transition: all 0.3s ease;
+}
+
+.test-area:focus {
+    outline: none;
+    border-color: var(--key-active);
+    box-shadow: 0 0 15px rgba(46, 204, 113, 0.2);
+}
+
+.keyboard-wrapper {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+    width: 100%;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 10px;
+    flex: 1 1 600px;
+   /* min-width: 800px; /* Minimum width for the main keyboard */
+}
+
+.numpad {
+    display: flex;
+    flex:0 0 200px;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 10px;
+    /*width: 200px; /* Fixed width for the numpad */
+    max-width: 100%;
+    
+}
+
+.row {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.key {
+    padding: 1rem;
+    background-color: var(--key-color);
+    border-radius: 5px;
+    min-width: var(--key-width);
+    height: var(--key-height);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: var(--key-text);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key.special {
+    background-color: var(--special-key);
+    font-size: 0.9rem;
+}
+
+.key.space {
+    min-width: calc(var(--key-width) * 6);
+}
+
+.key:hover {
+    background-color: rgba(46, 204, 113, 0.8);
+}
+
+.key.active {
+    background-color: var(--key-active);
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(46, 204, 113, 0.5);
+}
+
+.counter {
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 0.3rem 1rem;
+    background-color: var(--special-key);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /*display: block;*/
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+@media (max-width: 1200px) {
+    .keyboard {
+        min-width: 600px; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .keyboard-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .keyboard {
+        min-width: 100%; /* Full width on small screens */
+    }
+
+    .numpad {
+        width: 100%; /* Full width on small screens */
+    }
+
+    .key {
+        min-width: 40px;
+        height: 40px;
+        padding: 0.5rem;
+    }
+
+    .key.space {
+        min-width: calc(40px * 6);
+    }
+}
