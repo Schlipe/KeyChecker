@@ -35,7 +35,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 	cd KeyChecker/src
   
 
-3.**Abra o ficheiro main.html.**
+3. **Abra o ficheiro main.html.**
 
 ## Tecnologias Utilizadas
 
@@ -50,7 +50,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para sugerir ideias ou abri
 ## Contactos:
 
 - Podes encontrar-me no LinkedIn : [Filipe Ferreira](https://www.linkedin.com/in/filiferreira/)
-
-## Este projeto está licenciado sob a Licença MIT.
 
 ## Filipe Ferreira
