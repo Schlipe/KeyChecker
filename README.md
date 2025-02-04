@@ -43,7 +43,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para sugerir ideias ou abri
 
 ## Contactos:
 
--Podes encontrar-me no LinkedIn : [Filipe Ferreira](https://www.linkedin.com/in/filiferreira/)
+- Podes encontrar-me no LinkedIn : [Filipe Ferreira](https://www.linkedin.com/in/filiferreira/)
 
 ## Este projeto está licenciado sob a Licença MIT.
 
