@@ -1,7 +1,9 @@
 # Diagnóstico Teclados (KeyChecker)
 **Olá!** Sou uma WebApp feita para testar a funcionalidade de teclados, inicialmente com suporte para layout português. O objetivo é garantir que todos os teclados funcionem corretamente, com planos para adicionar suporte a todos os layouts de teclado.
 
-![](https://github.com/Schlipe/KeyChecker/KeyChecker.gif)
+
+![KeyChecker](https://github.com/user-attachments/assets/7dda3f22-13a1-442c-8298-c8fafad45d2d)
+
 
 ## Demonstração
 
